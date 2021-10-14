@@ -14,32 +14,21 @@
     <!-- ===M=== Compiled and minified CSS ===M=== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
 
     <!-- ===C=== My CSS ===C=== -->
     <link rel="stylesheet" href="./styles/CSS/style.css">
                
     <title>Journey Journal</title>
 
-    <style>
-        header{
-            background: url(/Journey-Journal/img/coffee.jpg);
-            background-size: cover;
-            background-position: center;
-            min-height: 700px;
-        }
-        @media screen and (max-width: 670px){
-            header{
-                min-height: 500px;
-            }
-        }
-    </style>
+    
 </head>
 <body>
     <header>
         <nav class="nav-wrapper transparent">
             <div class="container">
-                <a href="" class="brand-logo">Journey Journal</a>
+                <a href="" class="brand-logo grey-text text-darken-4">Journey Journal</a>
                 <a href="" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons">menu</i>
                 </a>
@@ -58,6 +47,31 @@
             </div>
         </nav>
     </header>
+
+    <section class="container section" id="photo's">
+        <div class="row">
+            <div class="col s12 l4">
+                <a href=""><img src="img/journal.jpg" alt="Journaling" class="responsive-img"></a>           
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="grey-text darken-4">Journaling</h2>
+                <p>
+                    Start your Journal Journey now! Click the mood you're in to start a playlist and off you go!
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <a href=""><img src="img/sketch.jpeg" alt="Sketching" class="responsive-img"></a>            
+            </div>
+            <div class="col s12 l6 pull-l5 right-align">
+                <h2 class="grey-text darken-4">Sketching</h2>
+                <p>
+                    Start your Journal Journey 'Sketch Style'. Click the mood you're in to start a playlist and off you go!   COMING SOON!
+                </p>
+            </div>
+        </div>
+    </section>
 
 
     <!-- ===C=== my JavaScript ===C=== -->

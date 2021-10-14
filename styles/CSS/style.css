@@ -1,5 +1,12 @@
-.sidenav{
-    background: url(/Journey-Journal/img/vintagenotepaper.png);
+header{
+    background: url(/Journey-Journal/img/coffee.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 700px;
 }
+@media screen and (max-width: 670px){
+    header{
+        min-height: 500px;
+    }
+}
+
